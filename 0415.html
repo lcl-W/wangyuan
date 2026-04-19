@@ -1,0 +1,73 @@
+<!DOCTYPE html >
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>JavaScript基础知识联系</title>
+</head>
+<body>
+    <h1>JavaScript基础知识联系</h1>
+    <script>
+        //变量的定义
+        var name = "Alice";
+        let age = 30;
+        const PI = 3.14;
+        //打印变量
+        console.log("Name: " , name);
+        console.log("Age: " , age); 
+        console.log("PI: " , PI);
+        //变量的类型
+        console.log("Type of name: " , typeof name);
+        console.log("Type of age: " , typeof age);
+        console.log("Type of PI: " , typeof PI);
+       //javaScript的数据类型
+       let isStudent = true; //boolean
+       let score = null; //null
+       let undefinedVar; //undefined
+       console.log("Type of isStudent: " , typeof isStudent);
+       console.log("Type of score: " , typeof score);
+       console.log("Type of undefinedVar: " , typeof undefinedVar);
+       //运算符与表达式（加上注释，请全面补全）
+         let a = 10;
+         let b = 5;
+         let c = a + b; //加法
+         let d = a - b; //减法
+         let e = a * b; //乘法
+         let f = a / b; //除法
+         let g = a % b; //取模
+         console.log("a: " , a);
+         console.log("b: " , b);
+         console.log("c (a + b): " , c);
+         console.log("d (a - b): " , d);
+         console.log("e (a * b): " , e);
+         console.log("f (a / b): " , f);
+         console.log("g (a % b): " , g);
+
+         //流程控制
+         let score1 = 85;
+         if (score1 >= 90) {
+             console.log("你很优秀");
+            } else if (score1 >= 60) {
+             console.log("你及格了");
+         } else {
+             console.log("不及格");
+         }
+         //循环控制
+         console.log("For loop:");
+            for (let i = 0; i < 5; i++) {
+                console.log("i=" , i);
+            }
+            console.log("While loop:");
+            let j = 0;
+            while (j < 5) {
+              console.log("j=" , j);
+              j++;
+            }
+            //函数定义与调用
+            function greet(name) {
+                return "Hello, " + name + "!";
+            }
+            let greeting = greet("Alice");
+    </script>
+</body>
+</html>
